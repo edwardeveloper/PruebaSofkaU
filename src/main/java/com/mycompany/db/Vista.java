@@ -50,7 +50,7 @@ public class Vista extends javax.swing.JFrame {
                 ArrayList<Respuesta> respuestaPreguntas2Categoria0 = new ArrayList<>();
                 respuestaPreguntas2Categoria0.add(new Respuesta("int",false));
                 respuestaPreguntas2Categoria0.add(new Respuesta("float",false));
-                respuestaPreguntas2Categoria0.add(new Respuesta("float",false));
+                respuestaPreguntas2Categoria0.add(new Respuesta("char",false));
                 respuestaPreguntas2Categoria0.add(new Respuesta("String",true));
                     preguntasCategoria0[2] = new Pregunta("¿Cual de los siguientes no es un tipo de dato primitivo?",respuestaPreguntas2Categoria0);
             preguntas.add(preguntasCategoria0[2]);
@@ -730,7 +730,6 @@ public class Vista extends javax.swing.JFrame {
                        numeroRand = rando.nextInt(5);
                        llenarCampos(numeroRonda, numeroRand);
                        labelAcumulado.setText(String.valueOf(premio));
-                       nombreJugador = "";
                    }                           
                 }
 
